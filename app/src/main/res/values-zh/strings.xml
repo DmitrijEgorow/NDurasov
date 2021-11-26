@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Durasov House</string>
+    <string name="continuew">继续</string>
+    <string name="point0"> 杜拉索夫家族的时代背景\n从一个古老的贵族庄园到大学</string>
+    <string name="point0_text">
+我们很高兴在杜拉索夫大厦欢迎你，这是一座古典主义时期的建筑遗迹，现已成为高等经济学院的行政大楼。
+在接下来的一个小时里，你将了解到这座建筑的丰富历史。
+</string>
+    <string name="point1">中庭 \n11 Pokrovsky Boulevard</string>
+    <string name="point1_text">
+我们所在的中庭，一直是用来养马的。起初，在十八世纪末，我们周围的建筑都是一层楼。之后，从外墙不难发现，它们一直在 "成长"。\n\n
+最近杜拉索夫之家的修缮一直持续到2018年，从外立面到内部装饰，建筑都进行了全面的修复。\n\n
+修复工作严格遵循了历史主义的原则，这意味着要努力还原贵族庄园的原貌：墙壁的颜色和窗户的类型。同时，在适当的地方，也留下了其他时代的痕迹，包括苏联的遗产。\n\n
+苏联时代的标志我们将在后面看到，现在可能有一个例外值得一提。请大家注意一下窗台。在莫斯科实用商业科学院的年代，它总是需要更多的空间，在窗台和对面的建筑之间建起了一栋四层楼。在上次装修时，专家们对该楼的未来进行了长时间的讨论。结果，一个艰难的决定，广场的原貌被还原，外楼被拆除。\n\n
+回到十八世纪末，您将被邀请到庄园的一个入口处。\n\n
+</string>
+    <string name="text_expand_button">案文</string>
+    <string name="point2">访客入口 \nDurasov House</string>
+    <string name="point2_text">18世纪和19世纪的建筑图清楚地显示，庄园的两个入口是对称的。今天，它们有不同的配置，第二个入口要小得多。然而，很难说清楚它是何时被改变的。
+\n\n这是一个大型的礼仪性入口。汽车进入院子的大门是原始的，见证了1812年的战争。在修复过程中，它被用来重塑第二个入口的大门。
+\n\n我们特意提到了1812年的战争。当时，这座庄园是拿破仑的一位将军Vendemin的总部。根据未经证实的信息，拿破仑也曾来过这所房子。
+\n\n至于1812年的那场大火，有的资料说房子受到了很大的破坏，而有的资料说恰恰相反。
+</string>
+    <string name="point3">八柱式圆形大厅</string>
+    <string name="point3_text">
+圆形建筑是一种圆形建筑，在大多数情况下由柱子环绕，屋顶上有一个圆顶。最早的圆形建筑出现在古希腊和罗马，这种建筑形式被用来建造寺庙。这些建筑被称为 "tholos"。
+\n\n后来，意大利语rotunda（拉丁语rotondus）一词被用于这些建筑的名称（来自拉丁语rotondus，意思是圆形），圆形教堂在西欧变得非常普遍。
+\n\n在贵族庄园建筑的全盛时期，圆形建筑经常被用来构成公园建筑群中的凉亭和观景台。
+\n\n在杜拉索夫宅邸，圆形大厅作为一个大的入口，供客人进入房子。它不是立即出现在建筑中，而是作为19世纪第一季度的延伸，当时人们决定在一楼建立一个两层的大厅。
+    </string>
+    <string name="point4">修复和9层油漆</string>
+    <string name="point4_text">
+
+    </string>
+    <string name="point5">廊道\n1层</string>
+    <string name="point5_text">s</string>
+    <string name="point6">门廊</string>
+    <string name="point6_text">s</string>
+    <string name="point7">食堂</string>
+    <string name="point7_text">s</string>
+    <string name="point8">炉具</string>
+    <string name="point8_text">s</string>
+    <string name="point9">入口</string>
+    <string name="point9_text">s</string>
+    <string name="point10">游行楼梯</string>
+    <string name="point10_text">s</string>
+    <string name="point11">不寻常的楼梯</string>
+    <string name="point11_text">s</string>
+    <string name="point12">白色大厅</string>
+    <string name="point12_text">s</string>
+    <string name="point13">红色大厅</string>
+    <string name="point13_text">s</string>
+    <string name="point14">绿色大厅</string>
+    <string name="point14_text">s</string>
+    <string name="point15">蓝色大厅</string>
+    <string name="point15_text">s</string>
+    <string name="point16">楼梯</string>
+    <string name="point16_text">s</string>
+    <string name="point17">翼</string>
+    <string name="point17_text">s</string>
+    <string name="point18">校长办公室</string>
+    <string name="point18_text">s</string>
+    <string name="point_title">点点 </string>
+    <string name="exit">退场</string>
+    <string name="poor_screen_resolution">你的屏幕分辨率不够。您的设备不能使用AR体验。</string>
+    <string-array name="points_short_titles">
+        <item>杜拉索夫家族的时代背景</item>
+        <item>中庭</item>
+        <item>访客入口 </item>
+        <item>八柱式圆形大厅</item>
+        <item>修复和9层油漆</item>
+        <item>廊道</item>
+        <item>门廊</item>
+        <item>食堂</item>
+        <item>炉具</item>
+        <item>入口</item>
+        <item>游行楼梯</item>
+        <item>不寻常的楼梯</item>
+        <item>白色大厅</item>
+        <item>红色大厅</item>
+        <item>绿色大厅</item>
+        <item>蓝色大厅</item>
+        <item>楼梯</item>
+        <item>翼</item>
+        <item>校长办公室</item>
+    </string-array>
+
+</resources>

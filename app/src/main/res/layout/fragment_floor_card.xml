@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="248dp"
+    android:layout_height="152dp"
+    android:background="@color/transparent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="@dimen/floating_width"
+        android:layout_height="@dimen/floating_width"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/padding_main"
+        android:background="@color/orange"
+        android:backgroundTint="@color/orange"
+        android:elevation="1dp"
+        app:cardCornerRadius="@dimen/card_corner_radius"
+        app:cardElevation="1dp"
+        app:cornerRadius="@dimen/card_corner_radius"
+        app:icon="@drawable/ic_baseline_translate_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/container_floor">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/change_lang_main"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/orange"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            android:shadowColor="@color/transparent"
+            app:icon="@drawable/ic_baseline_translate_24" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/container_floor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/floating_width"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/padding_main"
+        android:layout_marginBottom="@dimen/padding_main"
+        android:background="@color/transparent"
+        android:backgroundTint="@color/transparent"
+        android:elevation="0dp"
+
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:cornerRadius="@dimen/card_corner_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.9"
+            android:background="@color/transparent"
+            android:backgroundTint="@color/transparent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/floating_width"
+                android:layout_height="@dimen/floating_width"
+                android:backgroundTint="@color/black"
+                android:text="@string/floor_1"
+                android:textColor="@color/white"
+                app:shapeAppearance="@style/leftRounded">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_floor_1"
+                    style="@style/RobotoButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:backgroundTint="@color/transparent"
+                    android:text="@string/floor_1"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/main_floor_text_size" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/floating_width"
+                android:layout_height="@dimen/floating_width"
+                android:backgroundTint="@color/black"
+                android:text="@string/floor_2"
+                android:textColor="@color/white"
+                app:cardCornerRadius="0dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_floor_2"
+                    style="@style/RobotoButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:backgroundTint="@color/transparent"
+                    android:text="@string/floor_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/main_floor_text_size" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/floating_width"
+                android:layout_height="@dimen/floating_width"
+                android:backgroundTint="@color/black"
+                android:text="@string/floor_3"
+                android:textColor="@color/white"
+                app:cardCornerRadius="0dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_floor_3"
+                    style="@style/RobotoButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:backgroundTint="@color/transparent"
+                    android:text="@string/floor_3"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/main_floor_text_size" />
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="@dimen/floating_width"
+                android:layout_height="@dimen/floating_width"
+                android:backgroundTint="@color/black"
+                android:text="@string/floor_3"
+                android:textColor="@color/white"
+                app:shapeAppearance="@style/rightRounded" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
